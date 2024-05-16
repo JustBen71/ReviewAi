@@ -11,8 +11,8 @@ df = pd.read_csv('dataset.csv')
 print(df.head())
 
 # Séparer les données et les étiquettes
-X = df['commentaire']
-y = df['intention']
+X = df['review']
+y = df['sentiment']
 
 # Diviser le jeu de données en ensembles d'entraînement et de test
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -35,8 +35,8 @@ print(f'Accuracy: {accuracy}')
 print(classification_report(y_test, y_pred))
 
 # Prédire l'intention pour de nouveaux commentaires
-new_comments = ["Ce film était vraiment incroyable", "Je n'ai pas aimé ce film"]
+new_comments = ["This film was really incredible", "I did not like this film"]
 new_comments_tfidf = vectorizer.transform(new_comments)
 predictions = model.predict(new_comments_tfidf)
 for comment, pred in zip(new_comments, predictions):
-    print(f'Commentaire: {comment} - Intention: {"Bien" if pred == "bien" else "Mal"}')
+    print(f'Commentaire: {comment} - Intention: {pred}')
