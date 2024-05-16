@@ -12,7 +12,7 @@ Ce projet a pour but d'analyser les sentiments des commentaires de films en util
 
 ## Jeu de Données
 
-Le jeu de données utilisé dans ce projet est le [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) disponible sur Kaggle. Il contient 50 000 critiques de films avec des annotations de sentiments. Nous voulions beaucoup de données pour mieux prédire, ce jeu est assez conséquent mais du coup il est en anglais. Nous prédisons donc les commentaires anglais.
+Le jeu de données utilisé dans ce projet est le [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) disponible sur Kaggle. Il contient 50 000 critiques de films avec des annotations de sentiments. Nous voulions beaucoup de données pour mieux prédire, ce jeu de données est assez conséquent mais du coup il est en anglais. Nous prédisons donc les commentaires anglais.
 
 ## Étapes du Projet
 
