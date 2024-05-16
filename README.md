@@ -2,13 +2,13 @@
 
 ## Description
 
-Ce projet a pour but d'analyser les sentiments des commentaires de films en utilisant un modèle de régression logistique. Les sentiments sont classés en deux catégories : **Bien** (positif) et **Mal** (négatif). Le jeu de données utilisé contient des critiques de films annotées avec des sentiments, permettant ainsi de construire et d'évaluer un modèle de classification binaire.
+Ce projet a pour but d'analyser les sentiments des commentaires de films en utilisant un modèle de régression logistique. Les sentiments sont classés en trois catégories : **3 ou 4** (positif), **0 ou 1** (négatif) et **2** (neutre). Le jeu de données utilisé contient des critiques de films annotées avec des sentiments, permettant ainsi de construire et d'évaluer un modèle de classification binaire.
 
 ## Objectifs
 
 1. **Comprendre les sentiments des spectateurs** : En analysant les commentaires des films, nous pouvons obtenir des informations précieuses sur la perception du public vis-à-vis des films.
 2. **Automatiser la classification des sentiments** : Utiliser des techniques de traitement du langage naturel (NLP) et de machine learning pour automatiser l'identification des sentiments dans les critiques de films.
-3. **Créer un modèle prédictif** : Construire un modèle de régression logistique capable de prédire si un commentaire est positif ou négatif.
+3. **Créer un modèle prédictif** : Construire un modèle de régression logistique capable de prédire si un commentaire est positif, négatif ou neutre.
 
 ## Jeu de Données
 
