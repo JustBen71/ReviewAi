@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
 # Charger le jeu de données
-df = pd.read_csv('train.csv')
+df = pd.read_csv('dataset.csv')
 
 # Afficher un échantillon du jeu de données
 print(df.head())
